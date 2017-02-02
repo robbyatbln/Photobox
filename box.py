@@ -72,6 +72,7 @@ class Application():
         self.camera.start_preview()
 
     def on_button_1(self):
+        # test comment
         if self.button_1_was_down():
             self.counter = self.counter + 1
             print "Button 1 Pressed " + str(self.counter)
